@@ -27,19 +27,9 @@ export function AppBar() {
                   textFillColor: "transparent",
                 })}
               >
-                Floor Plan
+                Andreations
               </Typography>
-              <Typography
-                variant="h6"
-                noWrap
-                color={"secondary"}
-                sx={(theme) => ({
-                  fontSize: "14px",
-                })}
-              >
-                {" "}
-                [BETA]
-              </Typography>
+              
             </Stack>
           </Link>
 

@@ -7,14 +7,13 @@ let app, auth, db, analytics;
 
 if (!getApps().length) {
   const firebaseConfig = {
-    // TODO: Make sure these are your values
-    apiKey: "AIzaSyDlEzcJeNnGD1L3TmJGbylsFQd7dmmaA8g",
-    authDomain: "floorplan-codesagas.firebaseapp.com",
-    projectId: "floorplan-codesagas",
-    storageBucket: "floorplan-codesagas.appspot.com",
-    messagingSenderId: "1074198964881",
-    appId: "1:1074198964881:web:742e3a37f0307080f42d30",
-    measurementId: "G-FD3XK663C0",
+    apiKey: "AIzaSyDQFSyWieK9-E6Lz8aSSzsXkheMTJzdTv8",
+    authDomain: "andreations-1.firebaseapp.com",
+    projectId: "andreations-1",
+    storageBucket: "andreations-1.appspot.com",
+    messagingSenderId: "401267718733",
+    appId: "1:401267718733:web:329cae131bcf327a6d7a04",
+    measurementId: "G-WZN6XWJQ6D",
   };
   app = initializeApp(firebaseConfig);
   auth = getAuth();
